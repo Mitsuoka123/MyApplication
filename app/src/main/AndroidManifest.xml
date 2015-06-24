@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="hr.visimedia.myapplication" >
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".BicycleTrails"
+            android:label="@string/title_activity_bicycle_trails"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="hr.visimedia.myapplication.MainActivity" />
+        </activity>
+
+        <activity
+            android:name=".WalkingTrails"
+            android:label="@string/title_activity_walking_trails"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="hr.visimedia.myapplication.MainActivity" />
+        </activity>
+
+        <activity
+            android:name=".BicycleTrail1"
+            android:label="@string/title_activity_bicycle_trail1"
+            android:parentActivityName=".BicycleTrails" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="hr.visimedia.myapplication.BicycleTrails" />
+        </activity>
+
+        <activity
+            android:name=".BicycleTrail2"
+            android:label="@string/title_activity_bicycle_trail2"
+            android:parentActivityName=".BicycleTrails" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="hr.visimedia.myapplication.BicycleTrails" />
+        </activity>
+
+        <activity
+            android:name=".BicycleTrail3"
+            android:label="@string/title_activity_bicycle_trail3"
+            android:parentActivityName=".BicycleTrails" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="hr.visimedia.myapplication.BicycleTrails" />
+        </activity>
+
+        <activity
+            android:name=".BicycleTrail4"
+            android:label="@string/title_activity_bicycle_trail4"
+            android:parentActivityName=".BicycleTrails" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="hr.visimedia.myapplication.BicycleTrails" />
+        </activity>
+
+        <activity
+            android:name=".BicycleTrail5"
+            android:label="@string/title_activity_bicycle_trail5"
+            android:parentActivityName=".BicycleTrails" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="hr.visimedia.myapplication.BicycleTrails" />
+        </activity>
+
+        <activity
+            android:name=".BicycleTrail6"
+            android:label="@string/title_activity_bicycle_trail6"
+            android:parentActivityName=".BicycleTrails" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="hr.visimedia.myapplication.BicycleTrails" />
+        </activity>
+
+
+        <activity
+            android:name=".About"
+            android:label="@string/title_activity_about"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="hr.visimedia.myapplication.MainActivity" />
+        </activity>
+
+        <activity
+            android:name=".EvKorculaRaciscePhoto"
+            android:label="@string/title_activity_ev_korcula_racisce_photo" >
+        </activity>
+    </application>
+
+</manifest>

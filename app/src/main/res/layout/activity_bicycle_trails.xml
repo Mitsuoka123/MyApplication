@@ -1,0 +1,107 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_floating_material_dark">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/background_floating_material_dark">
+    tools:context="hr.visimedia.myapplication.BicycleTrails">
+    <Button
+        android:onClick="bicButton1"
+        android:textAllCaps="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/b_trail1_btn"
+        android:textSize="20sp"
+        android:id="@+id/button3"
+        android:width="300dp"
+        android:height="75dp"
+        android:background="#ffffffff"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/button4"
+        android:layout_marginBottom="5dp"
+        android:layout_alignStart="@+id/button4"
+        android:clickable="true"
+        android:textColor="#ff232323"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:onClick="bicButton2"
+        android:textAllCaps="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/b_trail2_btn"
+        android:textSize="20sp"
+        android:id="@+id/button4"
+        android:background="#ffffffff"
+        android:layout_below="@+id/button3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:width="300dp"
+        android:height="75dp"
+        android:textColor="#ff232323" />
+
+    <Button
+        android:onClick="bicButton3"
+        android:textAllCaps="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/b_trail3_btn"
+        android:textSize="20sp"
+        android:id="@+id/button5"
+        android:background="#ffffffff"
+        android:layout_below="@+id/button4"
+        android:layout_alignLeft="@+id/button4"
+        android:layout_marginBottom="5dp"
+        android:width="300dp"
+        android:height="75dp"
+        android:textColor="#ff232323" />
+
+    <Button
+        android:onClick="bicButton4"
+        android:textAllCaps="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/b_trail4_btn"
+        android:textSize="20sp"
+        android:id="@+id/button6"
+        android:layout_below="@+id/button5"
+        android:background="#ffffffff"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:width="300dp"
+        android:height="75dp"
+        android:textColor="#ff232323" />
+
+    <Button
+        android:onClick="bicButton5"
+        android:textAllCaps="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/b_trail5_btn"
+        android:textSize="20sp"
+        android:id="@+id/button7"
+        android:background="#ffffffff"
+        android:width="300dp"
+        android:height="75dp"
+        android:textColor="#ff232323"
+        android:layout_below="@+id/button6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp" />
+
+    <Button
+        android:onClick="bicButton6"
+        android:textAllCaps="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/b_trail6_btn"
+        android:textSize="20sp"
+        android:id="@+id/button8"
+        android:width="300dp"
+        android:height="75dp"
+        android:background="#ffffffff"
+        android:textColor="#ff232323"
+        android:layout_below="@+id/button7"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout></ScrollView>
